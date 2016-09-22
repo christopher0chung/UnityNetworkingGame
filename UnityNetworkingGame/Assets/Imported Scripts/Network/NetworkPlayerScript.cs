@@ -42,28 +42,6 @@ public class NetworkPlayerScript : Photon.MonoBehaviour {
 
     public Quaternion turretRot;
 
-    //private bool fire;
-    //public bool FIRE
-    //{
-    //    get
-    //    {
-    //        return fire;
-    //    }
-    //    set
-    //    {
-    //        if (value != fire)
-    //        {
-
-    //            if (!fire)
-    //            {
-    //                FireBullet();
-    //            }
-    //            fire = value;
-
-    //        }
-    //    }
-    //}
-
     // Use this for initialization
     void Awake()
     {
@@ -74,12 +52,6 @@ public class NetworkPlayerScript : Photon.MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
-        //Debug.Log(bullets.Count);
-        //for (int i = 0; i < 20; i++)
-        //{
-        //    bullets.Enqueue(NMS.MakeABullet());
-        //}
 
         if (photonView.isMine)
         {
@@ -109,7 +81,6 @@ public class NetworkPlayerScript : Photon.MonoBehaviour {
             stream.SendNext(transform.rotation);
             stream.SendNext(HIT);
             stream.SendNext(turret.transform.rotation);
-            //stream.SendNext(FIRE);
         }
         else
         {
@@ -117,7 +88,6 @@ public class NetworkPlayerScript : Photon.MonoBehaviour {
             netRot = (Quaternion)stream.ReceiveNext();
             HIT = (bool)stream.ReceiveNext();
             turretRot = (Quaternion)stream.ReceiveNext();
-            //FIRE = (bool)stream.ReceiveNext();
         }
     }
 
