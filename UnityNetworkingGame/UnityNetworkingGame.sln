@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityNetworkingGame.CSharp.Plugins", "UnityNetworkingGame.CSharp.Plugins.csproj", "{0C0A43A7-4C06-DE43-8B42-BE9FCF2863A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityNetworkingGame.CSharp", "UnityNetworkingGame.CSharp.csproj", "{98E45D20-1070-9B91-5333-519C94222A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityNetworkingGame.CSharp.Editor", "UnityNetworkingGame.CSharp.Editor.csproj", "{5267B09B-4D59-D310-CD8D-EF22B315008D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0A43A7-4C06-DE43-8B42-BE9FCF2863A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0A43A7-4C06-DE43-8B42-BE9FCF2863A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0A43A7-4C06-DE43-8B42-BE9FCF2863A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0A43A7-4C06-DE43-8B42-BE9FCF2863A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E45D20-1070-9B91-5333-519C94222A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E45D20-1070-9B91-5333-519C94222A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E45D20-1070-9B91-5333-519C94222A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E45D20-1070-9B91-5333-519C94222A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5267B09B-4D59-D310-CD8D-EF22B315008D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5267B09B-4D59-D310-CD8D-EF22B315008D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5267B09B-4D59-D310-CD8D-EF22B315008D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5267B09B-4D59-D310-CD8D-EF22B315008D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
