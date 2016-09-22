@@ -87,6 +87,7 @@
     <Compile Include="Assets\Imported Scripts\Network\NetworkManagerScript.cs" />
     <Compile Include="Assets\Imported Scripts\Network\NetworkPlayerScript.cs" />
     <Compile Include="Assets\Imported Scripts\VisualizationSmoothScript.cs" />
+    <Compile Include="Assets\NetworkClientScript.cs" />
     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />
     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayer.cs" />
